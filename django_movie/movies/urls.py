@@ -10,4 +10,6 @@ urlpatterns = [
     #path("<int:pk>/", views.MovieDetailView.as_view()),
     #but if we whant to use url instead of pk we should write it like this
     path("<slug:slug>/", views.MovieDetailView.as_view(), name='movie_detail'),
+    path("review/<int:pk>/", views.AddReview.as_view(), name='add_review'),
+
 ]

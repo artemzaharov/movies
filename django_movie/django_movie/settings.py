@@ -126,6 +126,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [STATICFILES_DIRS]
 
-#we should create dirrectory /media and add it to media root
+#we should create dirrectory /media and add it to media root to save pictures
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
